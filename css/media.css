@@ -1,0 +1,29 @@
+@media (max-width: 1000px) {
+
+    #uname1,
+    #uname2 {
+        width: 7rem;
+    }
+}
+
+
+@media (max-width: 767px) {
+    console {
+        border: none !important;
+    }
+}
+
+@media (max-width: 576px) {
+    #big-screen {
+        display: none;
+    }
+
+    #small-screen {
+        display: block;
+    }
+
+    #uname1,
+    #uname2 {
+        width: 5rem;
+    }
+}
